@@ -1,0 +1,94 @@
+######################## default configuration ####################
+baseURL = "https://advanced-sql.com"
+title = "Documentation"
+theme = "godocs"
+# disable language
+disableLanguages = ['fr'] # disable language from here
+
+# hugo outputs
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+# render unsafe html
+[markup.goldmark.renderer]
+unsafe = true
+
+# table of content
+[markup.tableOfContents]
+startLevel = 0
+endLevel = 6
+ordered = false
+
+
+############################# Plugins ##############################
+
+# CSS Plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+[[params.plugins.css]]
+link = "plugins/search/auto-complete.css"
+[[params.plugins.css]]
+link = "plugins/featherlight/featherlight.min.css"
+
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/masonry/masonry.min.js"
+[[params.plugins.js]]
+link = "plugins/featherlight/featherlight.min.js"
+[[params.plugins.js]]
+link = "plugins/clipboard/clipboard.min.js"
+[[params.plugins.js]]
+link = "plugins/scrollmenu/scrollmenu.min.js"
+[[params.plugins.js]]
+link = "plugins/search/auto-complete.js"
+[[params.plugins.js]]
+link = "plugins/search/search.js"
+[[params.plugins.js]]
+link = "plugins/search/lunr.min.js"
+
+
+#################### default parameters ################################
+[params]
+logo = "images/sql_logo.svg"
+# Meta data
+description = "This is meta description"
+author = "Themefisher"
+# contact form action
+contact_form_action = "#" # contact form works with https://formspree.io
+# Google Analitycs
+google_analitycs_id = "" # your id
+# table of content on document page
+table_of_content = true
+
+# Preloader
+[params.preloader]
+enable = true
+preloader = "" # use jpg, png, svg or gif format.
+
+# Navigation button bordered
+[params.navigation_button_bordered]
+enable = false
+label = "changelog"
+link = "changelog"
+
+# Navigation button solid
+[params.navigation_button_solid]
+enable = true
+label = "contact"
+link = "contact"
+
+
+################################### English language #####################################
+[Languages.en]
+languageName = "En"
+languageCode = "en-us"
+weight = 1
+home = "Documentation"
+# copyright
+copyright = "Copyright &copy; 2020 DLD"
