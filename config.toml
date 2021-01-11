@@ -55,7 +55,7 @@ link = "plugins/search/lunr.min.js"
 
 #################### default parameters ################################
 [params]
-logo = "images/sql_logo.svg"
+logo = "images/logo_sql.svg"
 # Meta data
 description = "This is meta description"
 author = "Themefisher"
@@ -79,7 +79,7 @@ link = "changelog"
 
 # Navigation button solid
 [params.navigation_button_solid]
-enable = true
+enable = false
 label = "contact"
 link = "contact"
 
@@ -89,6 +89,6 @@ link = "contact"
 languageName = "En"
 languageCode = "en-us"
 weight = 1
-home = "Documentation"
+home = "Resources"
 # copyright
-copyright = "Copyright &copy; 2020 DLD"
+copyright = "Copyright &copy; 2020 Advanced SQL"
