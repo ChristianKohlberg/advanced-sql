@@ -1,5 +1,5 @@
 ---
-title: "Functions"
+title: "SQL Functions"
 date: 2020-10-12T08:47:11+01:00
 draft: false
 ---
@@ -86,7 +86,7 @@ LATERAL
 The second approach follows use cases you encounter along your journey. You can solve nearly any problem by just altering and combining many examples into one bigger picture. Therefore solving one part of the analytical question aids in the process of finding a good solution approach.
 
 
-References:
+#### References:
 * [docs.snowflake.com](https://docs.snowflake.com/en/sql-reference/functions-analytic.html)  
 * [informatik-aktuell.de](https://www.informatik-aktuell.de/betrieb/datenbanken/sql-performance-tuning-mit-analytic-functions-ein-projektbericht.html)
 

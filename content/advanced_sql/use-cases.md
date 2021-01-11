@@ -1,7 +1,7 @@
 ---
 title: "Use Cases"
 date: 2020-10-12T08:47:11+01:00
-draft: true
+draft: false
 ---
 
 #### Common Use Cases for window functions in analytics
@@ -44,7 +44,7 @@ the order by clause, for example order by job nulls last
 the windowing clause, for example RANGE UNBOUNDED PRECEDING or ROWS UNBOUNDED FOLLOWING
 
 
-### Lateral (Table functions)
+#### Lateral (Table functions)
 It is the "for-loop" of SQL.
 
 Our example returns the count of occurences in table b which is associated with table a by ID given a specific start and end date.
@@ -70,34 +70,18 @@ LATERAL
 ```
 
 
-### Flatten
-
-### RLIKE
-
-### JSON
-
-### Event analysis
-
-### Geospatial functions
-
-
-### Aggregate Functions
-
-### Generator
-
-### sampling
-
-### from oracle docs (TOC structure)
-
-
-## HAVING, QUALIFY
-
-Ranking
-Analytical windows
-Reporting aggregates
-LAG/LEAD
-FIRST/LAST
-Statistics library
-Pattern matching
-Advanced aggregations
-regression
+#### Flatten
+#### RLIKE
+#### JSON
+#### Event analysis
+#### Geospatial functions
+#### Aggregate Functions
+#### Generator
+#### sampling
+#### HAVING, QUALIFY
+#### Ranking
+#### LAG/LEAD
+#### Statistics library
+#### Pattern matching
+#### Advanced aggregations
+#### Linear regression

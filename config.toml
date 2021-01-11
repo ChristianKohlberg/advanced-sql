@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 baseURL = "https://advanced-sql.com"
-title = "Documentation"
+title = "Advanced SQL"
 theme = "godocs"
 # disable language
 disableLanguages = ['fr'] # disable language from here
@@ -58,7 +58,7 @@ link = "plugins/search/lunr.min.js"
 logo = "images/logo_sql.svg"
 # Meta data
 description = "This is meta description"
-author = "Themefisher"
+author = "Christian Kohlberg"
 # contact form action
 contact_form_action = "#" # contact form works with https://formspree.io
 # Google Analitycs
@@ -74,8 +74,8 @@ preloader = "" # use jpg, png, svg or gif format.
 # Navigation button bordered
 [params.navigation_button_bordered]
 enable = false
-label = "changelog"
-link = "changelog"
+label = "Github"
+link = "Github"
 
 # Navigation button solid
 [params.navigation_button_solid]
@@ -89,6 +89,22 @@ link = "contact"
 languageName = "En"
 languageCode = "en-us"
 weight = 1
-home = "Resources"
+home = "Training"
 # copyright
 copyright = "Copyright &copy; 2020 Advanced SQL"
+
+[[Languages.en.menu.main]]
+name = "Github"
+url = "https://github.com/ChristianKohlberg/advanced-sql"
+weight = 2
+
+# footer menu
+[[Languages.en.menu.footer]]
+name = "Imprint"
+url = "imprint"
+weight = 1
+
+[[Languages.en.menu.footer]]
+name = "Github"
+url = "https://github.com/ChristianKohlberg/advanced-sql"
+weight = 2
